@@ -1,0 +1,12 @@
+{
+  "name": "pasta-lab-site",
+  "private": true,
+  "type": "module",
+  "description": "Pasta Lab website. No build step; this file exists so the CI checker can import the site's own parsers.",
+  "scripts": {
+    "check": "node scripts/check-data.mjs && node scripts/check-pages.mjs",
+    "check:data": "node scripts/check-data.mjs",
+    "check:pages": "node scripts/check-pages.mjs",
+    "serve": "python3 -m http.server 8000"
+  }
+}

@@ -1,0 +1,344 @@
+% Pasta Lab publications - Guannan Wei (Tufts University)
+%
+% Add a paper here if Guannan is an author. Co-authored papers with other PIs
+% only need ONE entry in ONE file: the website filters by author name, so a
+% paper appears under every PI it belongs to no matter which file holds it.
+%
+% Recognised fields: title, author, booktitle/journal, year, venue, domain, url,
+% pdf, code, website, award. `venue` is the short badge on the site, `award` is
+% the only annotation rendered next to a paper, and `domain` is one or more of
+% pl, ai, sec, se. Domains default to the venue (see js/domains.js); set the
+% field when the venue is wrong or incomplete, and it replaces the default.
+% Everything else is standard biblatex, so the file still compiles in LaTeX.
+
+@article{wang2026neurosymbolic,
+  title        = {Neurosymbolic Code Auditing},
+  author       = {Chengpeng Wang and Zhuo Zhang and Xiangzhe Xu and
+                  Mingwei Zheng and Guannan Wei and Xiangyu Zhang},
+  journal      = {Foundations and Trends in Programming Languages},
+  year         = {2026},
+  venue        = {FnTPL 2026},
+  pdf           = {https://continuation.passing.style/static/papers/neurosym_auditing.pdf},
+  domain       = {pl, ai, sec}
+}
+
+@inproceedings{zhong2026concolic,
+  title        = {Compiling Concolic Execution with Staging, Continuations,
+                  and Snapshots},
+  author       = {Dinghong Zhong and Alex Bai and Mikail Khan and Guannan Wei},
+  booktitle    = {Proceedings of the ACM on Programming Languages (OOPSLA)},
+  year         = {2026},
+  venue        = {OOPSLA 2026}
+}
+
+@inproceedings{tan2026staging,
+  title        = {When Do Staging Annotations Preserve Semantics? Mechanizing
+                  Typed Semantics-Preserving Multi-Stage Programming with
+                  Let-Insertion},
+  author       = {Jun Tan and Guannan Wei},
+  booktitle    = {Proceedings of the ACM on Programming Languages (OOPSLA)},
+  year         = {2026},
+  venue        = {OOPSLA 2026},
+  url           = {https://arxiv.org/abs/2606.30854},
+  code          = {https://github.com/instar-lang/mechanization/tree/oopsla26}
+}
+
+@article{wei2026letitbe,
+  title        = {Let It Be Optimized: Building Multi-Stage Evaluators with
+                  Let-Insertion and Optimizations in Small Pieces
+                  (Functional Pearl)},
+  author       = {Guannan Wei and Jun Tan and Dinghong Zhong},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {10},
+  number       = {ICFP},
+  year         = {2026},
+  venue        = {ICFP 2026},
+  url          = {https://continuation.passing.style/static/papers/pearl26.pdf},
+  code          = {https://github.com/instar-lang/instar-lang/tree/icfp26}
+}
+
+@article{jia2026escape,
+  title        = {Escape with Your Self: Sound and Expressive Bidirectional Typing
+                  with Avoidance for Reachability Types},
+  author       = {Songlin Jia and Guannan Wei and Siyuan He and Yuyan Bao and
+                  Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {10},
+  number       = {PLDI},
+  year         = {2026},
+  address      = {Boulder, CO, USA},
+  venue        = {PLDI 2026},
+  url          = {https://dl.acm.org/doi/10.1145/3808335},
+  pdf           = {https://continuation.passing.style/static/papers/pldi26.pdf},
+  code          = {https://zenodo.org/records/19664850}
+}
+
+@inproceedings{wei2025hallucination,
+  title        = {Hallucination-Resilient LLM-Driven Sound and Tunable Static
+                  Analysis: A Case of Higher-Order Control-Flow Analysis},
+  author       = {Guannan Wei and Zhuo Zhang and Caterina Urban},
+  booktitle    = {Proceedings of the 1st International Workshop on Language Models
+                  and Programming Languages (LMPL)},
+  year         = {2025},
+  address      = {Singapore},
+  venue        = {LMPL 2025},
+  url          = {https://dl.acm.org/doi/10.1145/3759425.3763378},
+  pdf           = {https://continuation.passing.style/static/papers/llmaam.pdf},
+  code          = {https://github.com/Kraks/llmaam}
+}
+
+@inproceedings{tan2025effecthandlers,
+  title        = {Programming Large Language Models with Algebraic Effect Handlers
+                  and the Selection Monad},
+  author       = {Shangyin Tan and Guannan Wei and Koushik Sen and Matei Zaharia},
+  booktitle    = {Proceedings of the 1st International Workshop on Language Models
+                  and Programming Languages (LMPL)},
+  year         = {2025},
+  address      = {Singapore},
+  venue        = {LMPL 2025},
+  pdf           = {https://shangyit.me/_assets/files/lmpl2025-paper11.pdf}
+}
+
+@article{bao2025logicalrelations,
+  title        = {Modeling Reachability Types with Logical Relations: Semantic Type
+                  Soundness, Termination, Effect Safety, and Equational Theory},
+  author       = {Yuyan Bao and Songlin Jia and Guannan Wei and Oliver Bra\v{c}evac
+                  and Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {9},
+  number       = {OOPSLA},
+  year         = {2025},
+  address      = {Singapore},
+  venue        = {OOPSLA 2025},
+  url          = {https://dl.acm.org/doi/abs/10.1145/3763116},
+  code          = {https://github.com/TiarkRompf/reachability}
+}
+
+@inproceedings{wei2025wasm,
+  title        = {Reconstructing Continuation-Passing Semantics for WebAssembly},
+  author       = {Guannan Wei and Alex Bai and Dinghong Zhong and Jiatai Zhang},
+  booktitle    = {Proceedings of the 26th International Symposium on Trends in
+                  Functional Programming (TFP)},
+  year         = {2025},
+  address      = {Oxford, UK},
+  venue        = {TFP 2025},
+  url           = {https://link.springer.com/chapter/10.1007/978-3-031-99751-8_9},
+  pdf           = {https://continuation.passing.style/static/papers/tfp25.pdf},
+  code          = {https://github.com/Generative-Program-Analysis/wasm-cps}
+}
+
+@article{wei2024polymorphic,
+  title        = {Polymorphic Reachability Types: Tracking Freshness, Aliasing,
+                  and Separation in Higher-Order Generic Programs},
+  author       = {Guannan Wei and Oliver Bra\v{c}evac and Songlin Jia and
+                  Yuyan Bao and Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {8},
+  number       = {POPL},
+  year         = {2024},
+  address      = {London, United Kingdom},
+  venue        = {POPL 2024},
+  url          = {https://dl.acm.org/doi/10.1145/3632856},
+  pdf           = {https://continuation.passing.style/static/papers/popl24.pdf},
+  code          = {https://github.com/tiarkrompf/reachability}
+}
+
+@article{wei2024consol,
+  title        = {Consolidating Smart Contracts with Behavioral Contracts},
+  author       = {Guannan Wei and Danning Xie and Wuqi Zhang and Yongwei Yuan and
+                  Zhuo Zhang},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {8},
+  number       = {PLDI},
+  year         = {2024},
+  address      = {Copenhagen, Denmark},
+  venue        = {PLDI 2024},
+  url           = {https://dl.acm.org/doi/10.1145/3656416},
+  pdf           = {https://continuation.passing.style/static/papers/pldi24.pdf},
+  code          = {https://github.com/Kraks/contract-for-contract},
+  domain       = {pl, sec}
+}
+
+@article{zheng2024pardiff,
+  title        = {ParDiff: Practical Static Differential Analysis of Network
+                  Protocol Parsers},
+  author       = {Mingwei Zheng and Qingkai Shi and Xuwei Liu and Xiangzhe Xu and
+                  Le Yu and Congyu Liu and Guannan Wei and Xiangyu Zhang},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {8},
+  number       = {OOPSLA},
+  year         = {2024},
+  address      = {Pasadena, CA, USA},
+  venue        = {OOPSLA 2024},
+  award        = {Distinguished Paper Award},
+  url           = {https://dl.acm.org/doi/10.1145/3649854},
+  pdf           = {https://continuation.passing.style/static/papers/oopsla24.pdf},
+  code          = {https://github.com/zmw12306/ParDiff},
+  domain       = {pl, se}
+}
+
+@inproceedings{wei2023gensym,
+  title        = {Compiling Parallel Symbolic Execution with Continuations},
+  author       = {Guannan Wei and Songlin Jia and Ruiqi Gao and Haotian Deng and
+                  Shangyin Tan and Oliver Bra\v{c}evac and Tiark Rompf},
+  booktitle    = {Proceedings of the 45th International Conference on Software
+                  Engineering (ICSE)},
+  year         = {2023},
+  venue        = {ICSE 2023},
+  url          = {https://ieeexplore.ieee.org/document/10172731},
+  pdf           = {https://continuation.passing.style/static/papers/icse23.pdf},
+  code          = {https://github.com/Generative-Program-Analysis/icse23-artifact-evaluation},
+  domain       = {pl, se}
+}
+
+@article{bracevac2023graphir,
+  title        = {Graph IRs for Impure Higher-Order Languages: Making Aggressive
+                  Optimizations Affordable with Precise Effect Dependencies},
+  author       = {Oliver Bra\v{c}evac and Guannan Wei and Songlin Jia and
+                  Supun Abeysinghe and Yuxuan Jiang and Yuyan Bao and Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {7},
+  number       = {OOPSLA},
+  year         = {2023},
+  address      = {Cascais, Portugal},
+  venue        = {OOPSLA 2023},
+  url          = {https://dl.acm.org/doi/10.1145/3622813},
+  pdf           = {https://continuation.passing.style/static/papers/oopsla23.pdf}
+}
+
+@inproceedings{xhebraj2022secondclass,
+  title        = {What If We Don't Pop the Stack? The Return of Second-Class Values},
+  author       = {Anxhelo Xhebraj and Oliver Bra\v{c}evac and Guannan Wei and
+                  Tiark Rompf},
+  booktitle    = {Proceedings of the 36th European Conference on Object-Oriented
+                  Programming (ECOOP)},
+  year         = {2022},
+  address      = {Berlin, Germany},
+  venue        = {ECOOP 2022},
+  url          = {https://drops.dagstuhl.de/opus/volltexte/2022/16243},
+  pdf           = {https://continuation.passing.style/static/papers/ecoop22.pdf}
+}
+
+@inproceedings{tan2022partial,
+  title        = {Towards Partially Evaluating Symbolic Interpreters for All},
+  author       = {Shangyin Tan and Guannan Wei and Tiark Rompf},
+  booktitle    = {Proceedings of the ACM SIGPLAN Workshop on Partial Evaluation
+                  and Program Manipulation (PEPM)},
+  year         = {2022},
+  address      = {Philadelphia, PA, USA},
+  venue        = {PEPM 2022},
+  url          = {https://continuation.passing.style/static/papers/pepm22.pdf}
+}
+
+@article{bao2021reachability,
+  title        = {Reachability Types: Tracking Aliasing and Separation in
+                  Higher-Order Functional Programs},
+  author       = {Yuyan Bao and Guannan Wei and Oliver Bra\v{c}evac and
+                  Yuxuan Jiang and Qiyang He and Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {5},
+  number       = {OOPSLA},
+  year         = {2021},
+  venue        = {OOPSLA 2021},
+  url          = {https://dl.acm.org/doi/abs/10.1145/3485516},
+  pdf           = {https://continuation.passing.style/static/papers/oopsla21.pdf},
+  code          = {https://github.com/tiarkrompf/reachability}
+}
+
+@inproceedings{wei2021llsc,
+  title        = {LLSC: A Parallel Symbolic Execution Compiler for LLVM IR},
+  author       = {Guannan Wei and Shangyin Tan and Oliver Bra\v{c}evac and
+                  Tiark Rompf},
+  booktitle    = {Proceedings of the 29th ACM Joint European Software Engineering
+                  Conference and Symposium on the Foundations of Software
+                  Engineering (ESEC/FSE)},
+  year         = {2021},
+  venue        = {FSE 2021},
+  url          = {https://dl.acm.org/doi/10.1145/3468264.3473108},
+  pdf           = {https://continuation.passing.style/static/papers/fsedemo21.pdf},
+  domain       = {pl, se}
+}
+
+@article{wei2020staging,
+  title        = {Compiling Symbolic Execution with Staging and Algebraic Effects},
+  author       = {Guannan Wei and Oliver Bra\v{c}evac and Shangyin Tan and
+                  Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {4},
+  number       = {OOPSLA},
+  year         = {2020},
+  venue        = {OOPSLA 2020},
+  url          = {https://dl.acm.org/doi/10.1145/3428232},
+  pdf           = {https://continuation.passing.style/static/papers/oopsla20.pdf},
+  code          = {https://github.com/Kraks/sai}
+}
+
+@article{wei2019staged,
+  title        = {Staged Abstract Interpreters: Fast and Modular Whole-Program
+                  Analysis via Meta-Programming},
+  author       = {Guannan Wei and Yuxuan Chen and Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {3},
+  number       = {OOPSLA},
+  year         = {2019},
+  address      = {Athens, Greece},
+  venue        = {OOPSLA 2019},
+  url          = {https://dl.acm.org/doi/10.1145/3360552},
+  pdf           = {https://continuation.passing.style/static/papers/sai19.pdf},
+  code          = {https://github.com/Kraks/sai}
+}
+
+@article{essertel2019precise,
+  title        = {Precise Reasoning with Structured Time, Structured Heaps,
+                  and Collective Operations},
+  author       = {Gr\'{e}gory Essertel and Guannan Wei and Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {3},
+  number       = {OOPSLA},
+  year         = {2019},
+  address      = {Athens, Greece},
+  venue        = {OOPSLA 2019},
+  url          = {https://dl.acm.org/doi/10.1145/3360583},
+  pdf           = {https://continuation.passing.style/static/papers/closedform19.pdf},
+  code          = {https://github.com/TiarkRompf/sigma}
+}
+
+@inproceedings{hendrix2019binaryraising,
+  title        = {Towards Verified Binary Raising},
+  author       = {Joe Hendrix and Guannan Wei and Simon Winwood},
+  booktitle    = {Workshop on Instruction Set Architecture Specification,
+                  co-located with ITP},
+  year         = {2019},
+  address      = {Portland, OR, USA},
+  venue        = {ITP 2019 Workshop},
+  pdf           = {https://continuation.passing.style/static/papers/spisa19.pdf},
+  domain       = {pl, sec}
+}
+
+@inproceedings{yang2019graphneural,
+  title        = {Graph Neural Reasoning for 2-Quantified Boolean Formula Solvers},
+  author       = {Zhanfu Yang and Fei Wang and Ziliang Chen and Guannan Wei and
+                  Tiark Rompf},
+  booktitle    = {Workshop on Learning and Reasoning with Graph-Structured
+                  Representations, co-located with ICML},
+  year         = {2019},
+  address      = {Long Beach, CA, USA},
+  venue        = {ICML 2019 Workshop},
+  pdf           = {https://continuation.passing.style/static/papers/graphqbf.pdf},
+  domain       = {ai}
+}
+
+@article{wei2018refunctionalization,
+  title        = {Refunctionalization of Abstract Abstract Machines
+                  (Functional Pearl)},
+  author       = {Guannan Wei and James M. Decker and Tiark Rompf},
+  journal      = {Proceedings of the ACM on Programming Languages},
+  volume       = {2},
+  number       = {ICFP},
+  year         = {2018},
+  address      = {St. Louis, MO, USA},
+  venue        = {ICFP 2018},
+  url          = {https://dl.acm.org/doi/10.1145/3236800},
+  pdf           = {https://continuation.passing.style/static/papers/icfp18.pdf},
+  code          = {https://github.com/Kraks/RefuncAAM}
+}

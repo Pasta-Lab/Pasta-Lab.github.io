@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pasta-lab.github.io/sitemap.xml
