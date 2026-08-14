@@ -12,7 +12,7 @@ News is written in the lab's voice. Say what the lab did, not who did it.
 Only the list below is read by the site. This paragraph is ignored.
 
 - * `2026-08-11` We released **SRE-Bench**, the first contamination-free benchmark for agentic reverse engineering, built with reverse engineering experts over 5,000 hours. [Paper](https://arxiv.org/abs/2608.11469), [leaderboard](https://www.vals.ai/benchmarks/reverse_eng).
-- `2026-08-01` We are co-chairing [LMPL 2026](https://lmpl.org/) and the [Scheme and Functional Programming Workshop 2026](https://icfp26.sigplan.org/home/scheme-2026).
+- `2026-08-01` We are organizing the [LMPL 2026](https://lmpl.org/) workshop and the [Scheme and Functional Programming Workshop 2026](https://icfp26.sigplan.org/home/scheme-2026).
 - `2026-07-01` “From Poisoned to Aware: Fostering Backdoor Self-Awareness in LLMs” will appear at **ICML 2026**.
 - `2026-06-15` Two more papers at **ICML 2026**: a position paper on teaching AI agents to hack, and **OpenSage**, a self-programming agent generation engine.
 - `2026-05-20` “Let It Be Optimized”, a functional pearl on multi-stage evaluators, will appear at **ICFP 2026**.

@@ -36,7 +36,7 @@ photo: guannan-wei
 website: https://continuation.passing.style/
 scholar: https://scholar.google.com/citations?user=b_6L2goAAAAJ
 github: https://github.com/Kraks
-interests: Metaprogramming, program analysis, type systems, compilers
+interests: Programming Languages, metaprogramming, program analysis, type systems, compilers
 
 ### Yangruibo (Robin) Ding
 
@@ -52,8 +52,8 @@ interests: Language models and agentic AI for software engineering and security
 
 - [Dinghong Zhong](https://butter-xz.com/) | Tufts University
 - [Jonah Weinbaum](https://jonahweinbaum.github.io/) | Tufts University | co-advised with [Jeff Foster](https://www.cs.tufts.edu/~jfoster/)
-- Jun Tan | Tufts University
-- Pingxuan Li | Tufts University
+- Jun Tan | Research intern at Tufts 
+- Pingxuan Li | Research intern at Tufts 
 - Songwen Zhao | University of California, Los Angeles
 - [Yimin Wang](https://pinkbubblebubble.github.io/) | University of California, Los Angeles
 - Jeffery Tian | Columbia University
