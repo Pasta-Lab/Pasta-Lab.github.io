@@ -15,7 +15,7 @@ Keys, all optional except `tagline`:
 
 This paragraph is ignored by the site. Only `##` blocks are read.
 
-## SRE-Bench
+## ReverseEngBench (previously SRE-Bench)
 
 tagline: A realistic, contamination-free benchmark for agentic reverse engineering.
 status: Active

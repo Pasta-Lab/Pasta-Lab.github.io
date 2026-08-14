@@ -52,11 +52,11 @@ interests: Language models and agentic AI for software engineering and security
 
 - [Dinghong Zhong](https://butter-xz.com/) | Tufts University
 - [Jonah Weinbaum](https://jonahweinbaum.github.io/) | Tufts University | co-advised with [Jeff Foster](https://www.cs.tufts.edu/~jfoster/)
-- Jun Tan | Research intern at Tufts 
-- Pingxuan Li | Research intern at Tufts 
+- Jun Tan | Research intern at Tufts University
+- Pingxuan Li | Research intern at Tufts University 
 - Songwen Zhao | University of California, Los Angeles
 - [Yimin Wang](https://pinkbubblebubble.github.io/) | University of California, Los Angeles
 - Jeffery Tian | Columbia University
 - Tijs Bellefroid | Columbia University | co-advised with [Jason Nieh](https://www.cs.columbia.edu/~nieh/)
 - Jun Ren | Columbia University
-- Jeremy Spence | Columbia University
+- Jeremy Spence | Research intern at Columbia University
