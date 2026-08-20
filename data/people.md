@@ -44,7 +44,7 @@ role: Assistant Professor
 affiliation: University of California, Los Angeles
 department: Department of Computer Science
 photo: robin-ding
-website: https://robin-y-ding-columbia.github.io/
+website: https://yrbding.github.io/
 scholar: https://scholar.google.com/citations?user=lmgRCxkAAAAJ
 interests: Language models and agentic AI for software engineering and security
 
