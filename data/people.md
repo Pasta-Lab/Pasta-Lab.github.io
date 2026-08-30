@@ -58,5 +58,5 @@ interests: Language models and agentic AI for software engineering and security
 - [Yimin Wang](https://pinkbubblebubble.github.io/) | University of California, Los Angeles
 - Jeffery Tian | Columbia University
 - Tijs Bellefroid | Columbia University | co-advised with [Jason Nieh](https://www.cs.columbia.edu/~nieh/)
-- Jun Ren | Columbia University
+- [Jun Ren](https://meliodas417.github.io/) | Columbia University
 - Jeremy Spence | Research intern at Columbia University
