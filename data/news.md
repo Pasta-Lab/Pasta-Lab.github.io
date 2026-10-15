@@ -11,7 +11,8 @@ Put a `*` right after the dash to pin an item as a highlight:
 News is written in the lab's voice. Say what the lab did, not who did it.
 Only the list below is read by the site. This paragraph is ignored.
 
-- * `2026-08-11` We released **SRE-Bench**, the first contamination-free benchmark for agentic reverse engineering, built with reverse engineering experts over 5,000 hours. [Paper](https://arxiv.org/abs/2608.11469), [leaderboard](https://www.vals.ai/benchmarks/reverse_eng).
+- * `2026-10-14` “When Do Staging Annotations Preserve Semantics?” received an **ACM SIGPLAN Distinguished Paper Award** at **OOPSLA 2026**.
+- * `2026-08-11` We released **SRE-Bench**, the first contamination-free benchmark for agentic reverse engineering, built with reverse engineering experts over 5,000 hours. [Paper](https://arxiv.org/abs/2608.11469), [website](https://sre-bench.lol), [leaderboard](https://www.vals.ai/benchmarks/sre_bench).
 - `2026-08-01` We are organizing the [LMPL 2026](https://lmpl.org/) workshop and the [Scheme and Functional Programming Workshop 2026](https://icfp26.sigplan.org/home/scheme-2026).
 - `2026-07-01` “From Poisoned to Aware: Fostering Backdoor Self-Awareness in LLMs” will appear at **ICML 2026**.
 - `2026-06-15` Two more papers at **ICML 2026**: a position paper on teaching AI agents to hack, and **OpenSage**, a self-programming agent generation engine.
