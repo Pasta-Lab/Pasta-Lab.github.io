@@ -61,7 +61,7 @@ interests: Language models and agentic AI for software engineering and security
 - May Neelon | Research intern at Tufts University
 - [Yimin Wang](https://pinkbubblebubble.github.io/) | University of California, Los Angeles
 - Songwen Zhao | University of California, Los Angeles
-- Haomin Qi | Master's student at University of California, Los Angeles
+- [Haomin Qi](https://www.linkedin.com/in/harminchee/) | Master's student at University of California, San Diego
 - George Zhao | Master's student at University of California, Los Angeles
 - Jeffery Tian | Columbia University
 - Tijs Bellefroid | Columbia University | co-advised with [Jason Nieh](https://www.cs.columbia.edu/~nieh/)
